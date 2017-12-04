@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-12-03T06:06:11.198Z</updated>
+  <updated>2017-12-04T07:23:39.848Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,41 +17,25 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>哇擦擦擦</title>
-    <link href="http://yoursite.com/2017/12/03/%E5%93%87%E6%93%A6%E6%93%A6%E6%93%A6/"/>
-    <id>http://yoursite.com/2017/12/03/哇擦擦擦/</id>
-    <published>2017-12-03T06:06:11.000Z</published>
-    <updated>2017-12-03T06:06:11.198Z</updated>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2017/12/04/%E7%BA%AA%E5%BF%B5%E5%BF%99%E7%A2%8C%E7%9A%84%E5%91%A8%E6%9C%AB/"/>
+    <id>http://yoursite.com/2017/12/04/纪念忙碌的周末/</id>
+    <published>2017-12-04T07:23:39.848Z</published>
+    <updated>2017-12-04T07:23:39.848Z</updated>
     
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>纪又一次搭建我的Blog</title>
-    <link href="http://yoursite.com/2017/12/02/%E7%BA%AA%E5%8F%88%E4%B8%80%E6%AC%A1%E6%90%AD%E5%BB%BA%E6%88%91%E7%9A%84Blog/"/>
-    <id>http://yoursite.com/2017/12/02/纪又一次搭建我的Blog/</id>
-    <published>2017-12-02T14:22:04.000Z</published>
-    <updated>2017-12-03T06:06:51.769Z</updated>
-    
-    <content type="html"><![CDATA[<p>###又一次。再一次。哇哈哈</p><p>ggdfgsfgsdfsfgsd</p>]]></content>
+    <content type="html"><![CDATA[<h3 id="重新搭建这个辣鸡博客"><a href="#重新搭建这个辣鸡博客" class="headerlink" title="重新搭建这个辣鸡博客"></a>重新搭建这个辣鸡博客</h3><p>花费了哥哥一个周末的时间，又重新搞了一次，虽然中间穿插了很多，比如说自己打了N把游戏，陪个啥子打了N把农药，还看了两天的柯南和两个电影！</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;###又一次。再一次。哇哈哈&lt;/p&gt;
-&lt;p&gt;ggdfgsfgsdfsfgsd&lt;/p&gt;
-
+        &lt;h3 id=&quot;重新搭建这个辣鸡博客&quot;&gt;&lt;a href=&quot;#重新搭建这个辣鸡博客&quot; class=&quot;headerlink&quot; title=&quot;重新搭建这个辣鸡博客&quot;&gt;&lt;/a&gt;重新搭建这个辣鸡博客&lt;/h3&gt;&lt;p&gt;花费了哥哥一个周末的时间，又重新搞了一次，虽然中间穿插了很多，比如说自己打了
       
     
     </summary>
     
     
-      <category term="blog" scheme="http://yoursite.com/tags/blog/"/>
+      <category term="辣鸡" scheme="http://yoursite.com/tags/%E8%BE%A3%E9%B8%A1/"/>
     
   </entry>
   
