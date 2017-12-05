@@ -90,7 +90,7 @@
 <meta property="og:site_name" content="Leehotin&#39; Blog">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://yoursite.com/images/next.png">
-<meta property="og:updated_time" content="2017-12-05T05:53:44.259Z">
+<meta property="og:updated_time" content="2017-12-05T13:31:06.393Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="基于Hexo的Next主题的搭建与优化">
 <meta name="twitter:image" content="http://yoursite.com/images/next.png">
@@ -371,7 +371,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  4
+                  259
                 </span>
               
 
@@ -409,7 +409,14 @@
 
       
         <p><img src="/images/next.png" width="800px" height="200px"><br><a id="more"></a></p>
-<h2 id="Hexo的搭建"><a href="#Hexo的搭建" class="headerlink" title="Hexo的搭建"></a>Hexo的搭建</h2>
+<h1 id="题外话"><a href="#题外话" class="headerlink" title="题外话"></a>题外话</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这算是本人正经写的第一篇文章了，讲真还有些不习惯，自己平时也看的少，不知道大家都是什么风格，也不知道各位来自”名门正派”的豪杰喜欢什么画风。总之就是，有问题可以随时评论区留言，我这文章可能写的不好，但是吹牛调侃还是一流的，哇哈哈。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;简答的牛皮就吹到这里，我们进入正题。</p>
+<h1 id="序言"><a href="#序言" class="headerlink" title="序言"></a>序言</h1><h1 id="一、Hexo的搭建"><a href="#一、Hexo的搭建" class="headerlink" title="一、Hexo的搭建"></a>一、Hexo的搭建</h1><h1 id="二、Next主题的基础配置"><a href="#二、Next主题的基础配置" class="headerlink" title="二、Next主题的基础配置"></a>二、Next主题的基础配置</h1><h1 id="三、Next主题的优化"><a href="#三、Next主题的优化" class="headerlink" title="三、Next主题的优化"></a>三、Next主题的优化</h1><ol>
+<li><p><strong>为Next主题更换背景图片</strong><br> 首先将选择的背景图片放在 themes/next/source/imgaes/ 文件夹下<br> 打开 themes/next/source/css/_custom/custom.styl 文件<br> 将body元素设置改为:</p>
+  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">// Custom styles.</span><br><span class="line">body &#123;</span><br><span class="line">       background:url(/images/background.jpeg);</span><br><span class="line">       background-attachment: fixed;</span><br><span class="line">     &#125;</span><br></pre></td></tr></table></figure>
+<p>  其中background-attachment元素是为了让背景图不随着页面移动而移动，如果有这个需求可以加上这句话，没有的话就删掉就可以了。</p>
+</li>
+</ol>
+
       
     </div>
     
@@ -648,7 +655,7 @@ var jiathis_config={
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo的搭建"><span class="nav-number">1.</span> <span class="nav-text">Hexo的搭建</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#题外话"><span class="nav-number">1.</span> <span class="nav-text">题外话</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#序言"><span class="nav-number">2.</span> <span class="nav-text">序言</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#一、Hexo的搭建"><span class="nav-number">3.</span> <span class="nav-text">一、Hexo的搭建</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#二、Next主题的基础配置"><span class="nav-number">4.</span> <span class="nav-text">二、Next主题的基础配置</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#三、Next主题的优化"><span class="nav-number">5.</span> <span class="nav-text">三、Next主题的优化</span></a></li></ol></div>
             
 
           </div>
@@ -686,7 +693,7 @@ var jiathis_config={
   </span>
   <div class="theme-info">
       <div class="powered-by"></div>
-      &nbsp;<span class="post-count">博客全站共46字</span>
+      &nbsp;<span class="post-count">博客全站共301字</span>
    </div>
 </div>
 
