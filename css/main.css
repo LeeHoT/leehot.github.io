@@ -1257,6 +1257,7 @@ pre .javascript .function {
 .use-motion .pagination,
 .use-motion .comments {
   opacity: 0;
+  padding-top: 40px;
 }
 .use-motion .post-header {
   opacity: 0;
@@ -1269,6 +1270,8 @@ pre .javascript .function {
 }
 .posts-expand {
   padding-top: 0px;
+  background: #fff;
+  min-height: 700px;
 }
 @media (max-width: 767px) {
   .posts-expand {
@@ -1823,7 +1826,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #67782e;
+  background: #7e7c50;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2659,6 +2662,7 @@ pre .javascript .function {
 }
 .container .main-inner {
   width: 1150px;
+  padding-top: 10px;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .container .main-inner {
@@ -2676,7 +2680,6 @@ pre .javascript .function {
   padding: 40px;
   padding-top: 0px;
   width: 900px;
-  background: #fff;
   min-height: 700px;
   box-shadow: initial;
   border-radius: initial;
