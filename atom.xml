@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-12-04T13:19:36.650Z</updated>
+  <updated>2017-12-05T05:53:44.259Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,33 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>基于Hexo的Next主题的搭建与优化</title>
+    <link href="http://yoursite.com/2017/12/05/hexo-next-deploy-and-optimize-md/"/>
+    <id>http://yoursite.com/2017/12/05/hexo-next-deploy-and-optimize-md/</id>
+    <published>2017-12-05T05:45:28.000Z</published>
+    <updated>2017-12-05T05:53:44.259Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/images/next.png" width="800px" height="200px"><br><a id="more"></a></p><h2 id="Hexo的搭建"><a href="#Hexo的搭建" class="headerlink" title="Hexo的搭建"></a>Hexo的搭建</h2>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/next.png&quot; width=&quot;800px&quot; height=&quot;200px&quot;&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Hexo搭建与优化" scheme="http://yoursite.com/categories/Hexo%E6%90%AD%E5%BB%BA%E4%B8%8E%E4%BC%98%E5%8C%96/"/>
+    
+    
+      <category term="Hexo,Next" scheme="http://yoursite.com/tags/Hexo-Next/"/>
+    
+  </entry>
+  
+  <entry>
     <title>作为一个JAVA辣鸡的第一篇博客</title>
-    <link href="http://yoursite.com/2017/12/04/the_first_blog/"/>
-    <id>http://yoursite.com/2017/12/04/the_first_blog/</id>
-    <published>2017-12-04T13:19:36.649Z</published>
-    <updated>2017-12-04T13:19:36.650Z</updated>
+    <link href="http://yoursite.com/2017/12/05/the_first_blog/"/>
+    <id>http://yoursite.com/2017/12/05/the_first_blog/</id>
+    <published>2017-12-05T05:32:26.154Z</published>
+    <updated>2017-12-05T05:32:26.154Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/images/pexels-photo-127904.jpeg" width="800px" height="200px"><br><a id="more"></a></p><h3 id="评论一番"><a href="#评论一番" class="headerlink" title="评论一番"></a>评论一番</h3><p>第一个文章真不知道写点啥，不如大家来评论一下我这个人，敞开了说，反正我不知道你是谁！🐶🐶🐶🐶🐶🐶🐶🐶</p>]]></content>
     
@@ -30,6 +52,8 @@
       &lt;p&gt;&lt;img src=&quot;/images/pexels-photo-127904.jpeg&quot; width=&quot;800px&quot; height=&quot;200px&quot;&gt;&lt;br&gt;
     
     </summary>
+    
+      <category term="杂谈" scheme="http://yoursite.com/categories/%E6%9D%82%E8%B0%88/"/>
     
     
       <category term="辣鸡" scheme="http://yoursite.com/tags/%E8%BE%A3%E9%B8%A1/"/>
