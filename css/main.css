@@ -1395,7 +1395,7 @@ pre .javascript .function {
   border-radius: 50%;
 }
 .posts-collapse .post {
-  margin: 30px 0;
+  margin: 0px;
 }
 .posts-collapse .post-header {
   position: relative;
@@ -1613,7 +1613,7 @@ pre .javascript .function {
 .posts-expand .post-eof {
   display: block;
   margin: 80px auto 60px;
-  width: 8%;
+  width: 1px;
   height: 1px;
   background: #ccc;
   text-align: center;
@@ -1826,7 +1826,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d271b4;
+  background: #a129cb;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2680,7 +2680,7 @@ pre .javascript .function {
   padding: 40px;
   padding-top: 0px;
   width: 900px;
-  min-height: 700px;
+  min-height: 500px;
   box-shadow: initial;
   border-radius: initial;
 }
@@ -2999,9 +2999,8 @@ body {
   background: url("/images/background.jpg");
 }
 .post {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  padding: 25px;
+  padding: 0 25px 25px 25px;
+  background: #fff;
   -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
