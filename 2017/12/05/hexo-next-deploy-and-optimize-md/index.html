@@ -85,14 +85,14 @@
 
 <meta name="keywords" content="Hexo,Next">
 <meta property="og:type" content="article">
-<meta property="og:title" content="基于Hexo的Next主题的搭建与优化">
+<meta property="og:title" content="基于Hexo的Next主题的搭建与优化(未完成)">
 <meta property="og:url" content="http://yoursite.com/2017/12/05/hexo-next-deploy-and-optimize-md/index.html">
 <meta property="og:site_name" content="Leehotin&#39; Blog">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://yoursite.com/images/next.png">
-<meta property="og:updated_time" content="2017-12-05T13:31:06.393Z">
+<meta property="og:updated_time" content="2017-12-06T01:40:42.401Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="基于Hexo的Next主题的搭建与优化">
+<meta name="twitter:title" content="基于Hexo的Next主题的搭建与优化(未完成)">
 <meta name="twitter:image" content="http://yoursite.com/images/next.png">
 
 
@@ -129,7 +129,7 @@
 
 
 
-  <title>基于Hexo的Next主题的搭建与优化 | Leehotin' Blog</title>
+  <title>基于Hexo的Next主题的搭建与优化(未完成) | Leehotin' Blog</title>
   
 
 
@@ -293,7 +293,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">基于Hexo的Next主题的搭建与优化</h1>
+          <h1 class="post-title" itemprop="name headline">基于Hexo的Next主题的搭建与优化(未完成)</h1>
         
 
         <div class="post-meta">
@@ -345,7 +345,7 @@
 
           
           
-             <span id="/2017/12/05/hexo-next-deploy-and-optimize-md/" class="leancloud_visitors" data-flag-title="基于Hexo的Next主题的搭建与优化">
+             <span id="/2017/12/05/hexo-next-deploy-and-optimize-md/" class="leancloud_visitors" data-flag-title="基于Hexo的Next主题的搭建与优化(未完成)">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -371,7 +371,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  259
+                  635
                 </span>
               
 
@@ -387,7 +387,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  1
+                  2
                 </span>
               
             </div>
@@ -409,8 +409,20 @@
 
       
         <p><img src="/images/next.png" width="800px" height="200px"><br><a id="more"></a></p>
-<h1 id="题外话"><a href="#题外话" class="headerlink" title="题外话"></a>题外话</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这算是本人正经写的第一篇文章了，讲真还有些不习惯，自己平时也看的少，不知道大家都是什么风格，也不知道各位来自”名门正派”的豪杰喜欢什么画风。总之就是，有问题可以随时评论区留言，我这文章可能写的不好，但是吹牛调侃还是一流的，哇哈哈。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;简答的牛皮就吹到这里，我们进入正题。</p>
-<h1 id="序言"><a href="#序言" class="headerlink" title="序言"></a>序言</h1><h1 id="一、Hexo的搭建"><a href="#一、Hexo的搭建" class="headerlink" title="一、Hexo的搭建"></a>一、Hexo的搭建</h1><h1 id="二、Next主题的基础配置"><a href="#二、Next主题的基础配置" class="headerlink" title="二、Next主题的基础配置"></a>二、Next主题的基础配置</h1><h1 id="三、Next主题的优化"><a href="#三、Next主题的优化" class="headerlink" title="三、Next主题的优化"></a>三、Next主题的优化</h1><ol>
+<h2 id="题外话"><a href="#题外话" class="headerlink" title="题外话"></a>题外话</h2><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这算是本人正经写的第一篇文章了，讲真还有些不习惯，自己平时也看的少，不知道大家都是什么风格，也不知道各位来自”名门正派”的豪杰喜欢什么画风。总之就是，有问题可以随时评论区留言，我这文章可能写的不好，但是吹牛调侃还是一流的，哇哈哈。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;简答的牛皮就吹到这里，我们进入正题。</p>
+<h2 id="序言"><a href="#序言" class="headerlink" title="序言"></a>序言</h2><h2 id="Hexo的搭建"><a href="#Hexo的搭建" class="headerlink" title="Hexo的搭建"></a>Hexo的搭建</h2><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这部分内容主要讲述了本人在Mac环境下一步一步在<a href="https://github.com/" target="_blank" rel="noopener">Github</a>搭建<a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>博客的艰险历程，过程稍微曲折，但是结果很完美，就像你们现在看到的这样。 文章所有内容都是在Mac下进行实际操作的，如果哪里和Windows的设置有不同的地方且没有提及的，还望大家留言，我会及时进行记录并更改。</p>
+<h3 id="Hexo环境配置"><a href="#Hexo环境配置" class="headerlink" title="Hexo环境配置"></a>Hexo环境配置</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://hexo.io/docs/" target="_blank" rel="noopener">Hexo官方文档</a>对Hexo的下载安装已经有了非常详细的介绍，本人还是比较推荐官方文档，毕竟辣么权威。当然我这里也是可以滴，否则我现在还不知道在干啥。(<em>^__^</em>) 嘻嘻……</p>
+<h4 id="要求-Requirements"><a href="#要求-Requirements" class="headerlink" title="要求(Requirements)"></a>要求(Requirements)</h4><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;安装Hexo还是非常轻松的，但是为此需要先做一些事情，就好像盖房子怎么着都得先有地基吧</p>
+<ul>
+<li><a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node.js</a></li>
+<li><a href="https://github.com/" target="_blank" rel="noopener">Github</a><br>如果你的电脑没有这两个那么就需要自己安装啦。</li>
+</ul>
+<h4 id="安装Git-Install-Git"><a href="#安装Git-Install-Git" class="headerlink" title="安装Git(Install Git)"></a>安装Git(Install Git)</h4><p>Mac下的Xcode是自带Git的，如果没有Xcode，那么可以参考<a href="https://hexo.io/docs/" target="_blank" rel="noopener">Hexo官网</a>的方法</p>
+<blockquote>
+<h4 id="For-Mac-users"><a href="#For-Mac-users" class="headerlink" title="For Mac users"></a>For Mac users</h4><p>You may encounter some problems when compiling. Please install Xcode from App Store first. After Xcode is installed, open Xcode and go to Preferences -&gt; Download -&gt; Command Line Tools -&gt; Install to install command line tools.</p>
+</blockquote>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;大概意思就是：如果你在编译的时候遇到了问题，请从先App Store安装Xcode，安装完成之后打开Xcode,然后到 Preferences -&gt; Download -&gt; Command Line Tools -&gt; Install to install command line tools. 安装命令行工具就OK啦</p>
+<h4 id="安装Node-js-Install-Node-js"><a href="#安装Node-js-Install-Node-js" class="headerlink" title="安装Node.js(Install Node.js)"></a>安装Node.js(Install Node.js)</h4><h2 id="Next主题的基础配置"><a href="#Next主题的基础配置" class="headerlink" title="Next主题的基础配置"></a>Next主题的基础配置</h2><h2 id="Next主题的优化"><a href="#Next主题的优化" class="headerlink" title="Next主题的优化"></a>Next主题的优化</h2><ol>
 <li><p><strong>为Next主题更换背景图片</strong><br> 首先将选择的背景图片放在 themes/next/source/imgaes/ 文件夹下<br> 打开 themes/next/source/css/_custom/custom.styl 文件<br> 将body元素设置改为:</p>
   <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">// Custom styles.</span><br><span class="line">body &#123;</span><br><span class="line">       background:url(/images/background.jpeg);</span><br><span class="line">       background-attachment: fixed;</span><br><span class="line">     &#125;</span><br></pre></td></tr></table></figure>
 <p>  其中background-attachment元素是为了让背景图不随着页面移动而移动，如果有这个需求可以加上这句话，没有的话就删掉就可以了。</p>
@@ -655,7 +667,7 @@ var jiathis_config={
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#题外话"><span class="nav-number">1.</span> <span class="nav-text">题外话</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#序言"><span class="nav-number">2.</span> <span class="nav-text">序言</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#一、Hexo的搭建"><span class="nav-number">3.</span> <span class="nav-text">一、Hexo的搭建</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#二、Next主题的基础配置"><span class="nav-number">4.</span> <span class="nav-text">二、Next主题的基础配置</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#三、Next主题的优化"><span class="nav-number">5.</span> <span class="nav-text">三、Next主题的优化</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#题外话"><span class="nav-number">1.</span> <span class="nav-text">题外话</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#序言"><span class="nav-number">2.</span> <span class="nav-text">序言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo的搭建"><span class="nav-number">3.</span> <span class="nav-text">Hexo的搭建</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Hexo环境配置"><span class="nav-number">3.1.</span> <span class="nav-text">Hexo环境配置</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#要求-Requirements"><span class="nav-number">3.1.1.</span> <span class="nav-text">要求(Requirements)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#安装Git-Install-Git"><span class="nav-number">3.1.2.</span> <span class="nav-text">安装Git(Install Git)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#For-Mac-users"><span class="nav-number">3.1.3.</span> <span class="nav-text">For Mac users</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#安装Node-js-Install-Node-js"><span class="nav-number">3.1.4.</span> <span class="nav-text">安装Node.js(Install Node.js)</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Next主题的基础配置"><span class="nav-number">4.</span> <span class="nav-text">Next主题的基础配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Next主题的优化"><span class="nav-number">5.</span> <span class="nav-text">Next主题的优化</span></a></li></ol></div>
             
 
           </div>
@@ -693,7 +705,7 @@ var jiathis_config={
   </span>
   <div class="theme-info">
       <div class="powered-by"></div>
-      &nbsp;<span class="post-count">博客全站共301字</span>
+      &nbsp;<span class="post-count">博客全站共677字</span>
    </div>
 </div>
 
