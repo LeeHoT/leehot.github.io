@@ -93,7 +93,7 @@
 <meta property="og:image" content="http://yoursite.com/images/nodejs-verison-install.png">
 <meta property="og:image" content="http://yoursite.com/images/hexo-s-localhost.png">
 <meta property="og:image" content="http://yoursite.com/images/repository-location.png">
-<meta property="og:updated_time" content="2017-12-06T12:52:59.708Z">
+<meta property="og:updated_time" content="2017-12-06T12:55:49.500Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="使用Hexo在Github搭建搭建博客(MAC)">
 <meta name="twitter:image" content="http://yoursite.com/images/next.png">
@@ -450,7 +450,7 @@
 <p>如果这个时候报错了，内容如下<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ERROR LOCAL hexo not found <span class="keyword">in</span> /blog</span><br><span class="line">ERROR Try running: <span class="string">'npm install hexo --sava'</span></span><br></pre></td></tr></table></figure></p>
 <p>很明显，既然他都说尝试一下，那咱们就尝试一下呗,然后再运行 hexo g 会发现不报错了。</p>
 <p>生成静态文件之后那就该部署啦，执行 hexo deploy 或者 hexo d 来部署项目<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d	//部署项目</span><br></pre></td></tr></table></figure></p>
-<p>如果这个时候又报错了，说什么： 无法连接Git或者找不到Git，那就通过安装 hexo-deployer-git 来解决了<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$npm</span> install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></p>
+<p>如果这个时候又报错了，说什么： 无法连接Git或者找不到Git，那就通过安装 hexo-deployer-git 来解决了<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></p>
 <p>然后重新执行 hexo g 和 hexo d来重新部署</p>
 <p>同时如果你的电脑并没有把ssh key关联到 Github的话，我们为了避免每次部署都输入密码，就需要将你电脑的key 关联到Github上，这里我们简单说一下绑定的方法</p>
 <p>1、生成ssh key<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C <span class="string">"注册Github时的邮箱"</span></span><br></pre></td></tr></table></figure></p>
